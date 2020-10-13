@@ -35,7 +35,7 @@ export const PeopleQuery = ({ getPeople }) => {
         <label className="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect"
           htmlFor="ch">
           <input name='ch' checked={searchParams.nat.includes('ch')} onChange={e => setNat(e)} type="checkbox" id="ch" className="mdl-checkbox__input" />
-          <span className="mdl-checkbox__label">China</span>
+          <span className="mdl-checkbox__label">Switzerland</span>
         </label>
       </div>
       <div>
