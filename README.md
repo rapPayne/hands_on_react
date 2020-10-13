@@ -1,20 +1,26 @@
 # react_first_steps
 To support my React First Steps course on O'Reilly Learning Portal
 
+# Connect with Rap
+I'd love to connect with you to provide any help I can with learning React. Please reach out.
+- Twitter: [@Rap_Payne](https://twitter.com/Rap_Payne)
+- LinkedIn: [RapPayne](https://www.linkedin.com/in/rappayne/)
+- Github: [RapPayne](https://github.com/rapPayne)
+- Web: AgileGadgets.com
+
 We've created solutions at certain checkpoints. 
 1. [How to create a React app](01_how_to_create_a_react_app)
-2. Creating a React component
-3. Props
-4. Styling
-5. Events
-6. State
+2. [Creating a React component](02_creating_a_react_component)
+3. [Props](03_props)
+4. [Styling](04_styling)
+5. [Events and State](05_events_and_state)
 
 ## How to run these examples
 1. cd to the folder of your choice
 3. npm install
 4. npm run start
 
-Of course you can make any changes to the code you like at this point.Just save a file and the app will refresh in your browser.
+Of course you can make any changes to the code you like at this point. Just save a file and the app will refresh in your browser.
 
 ## Exercises
 
@@ -39,5 +45,6 @@ Now, drawing the people in App.js doesn't seem clean. We should be drawing the p
 2. Use JavaScript styles for flexbox layout.
 
 ### 5. Events and State
-1. Set queryParams; nationality, gender, and number of results.
-2. Call the setQueryParams on each of the changes to nationality, gender, and number of results.
+1. Create searchParams as a state variable; nationality, gender, and number of results.
+2. Call the setSearchParams on each of the changes to nationality, gender, and number of results.
+3. Pass those values into the fetch function
