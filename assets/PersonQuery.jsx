@@ -4,11 +4,13 @@
     <input className="mdl-textfield__input" type="number" id="number" autoComplete="false" />
     <label className="mdl-textfield__label" htmlFor="number">How many people do you want?</label>
   </div>
-  <label className="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect"
-    htmlFor="au">
-    <input type="checkbox" id="au" className="mdl-checkbox__input" />
-    <span className="mdl-checkbox__label">Australia</span>
-  </label>
+  <div>
+    <label className="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect"
+      htmlFor="au">
+      <input type="checkbox" id="au" className="mdl-checkbox__input" />
+      <span className="mdl-checkbox__label">Australia</span>
+    </label>
+  </div>
   <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
     <select className="mdl-textfield__input" id="gender" >
       <option value="all">all</option>
