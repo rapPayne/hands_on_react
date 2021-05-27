@@ -1,3 +1,3 @@
-## Checkpoint 2
+## Checkpoint 5
 
-How the project looks at the Creating a React component checkpoint
+How the project looks at the Events and State checkpoint which is the final product.
