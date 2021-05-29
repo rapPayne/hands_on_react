@@ -3,7 +3,7 @@ To support my React First Steps course on O'Reilly Learning Portal
 
 # Connect with Rap
 I'd love to connect with you to provide any help I can with learning React. Please reach out.
-- Twitter: [@Rap_Payne](https://twitter.com/Rap_Payne)
+- Twitter: [@RapPayne](https://twitter.com/RapPayne)
 - LinkedIn: [RapPayne](https://www.linkedin.com/in/rappayne/)
 - Github: [RapPayne](https://github.com/rapPayne)
 - Web: AgileGadgets.com
@@ -38,11 +38,11 @@ This one is simple. Just run create-react-app to create the application.
 ### 3. Props
 Now, drawing the people in App.js doesn't seem clean. We should be drawing the people in PeopleList.js. But we have to get those people into PeopleList somehow. Props will do the trick!
 1. Pass people from App.js down to PeopleList.js
-2. Pass setState down to PeopleQuery.js and run the fetch from there.
+2. Pass setPeople down to PeopleQuery.js and run the fetch from there.
 
 ### 4. Styling
 1. Add in a CSS library like material-design-lite.
-2. Use JavaScript styles for flexbox layout.
+2. Use JavaScript styles for the flexbox layout, and for sizing the person photo.
 
 ### 5. Events and State
 1. Create searchParams as a state variable; nationality, gender, and number of results.
