@@ -1,4 +1,3 @@
-import React from 'react';
 import { Person } from './Person';
 
 export const PeopleList = ({ people }) => {
@@ -6,7 +5,7 @@ export const PeopleList = ({ people }) => {
     <>
       <h1>People List</h1>
       {people.map(person => <Person key={person.login?.uuid} person={person} />)}
-      
+
     </>
   )
 }
