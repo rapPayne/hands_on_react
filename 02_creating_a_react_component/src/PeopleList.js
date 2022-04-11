@@ -1,11 +1,10 @@
-import React from 'react';
 import { Person } from './Person';
 
 export const PeopleList = () => {
   return (
     <>
-    <h1>People List</h1>
-    <Person />
+      <h1>People List</h1>
+      <Person />
     </>
   )
 }

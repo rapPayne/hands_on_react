@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { PeopleList } from './PeopleList';
 import { PeopleQuery } from './PeopleQuery';
 import { fetchPeople } from './fetchPeople';
 
 function App() {
-  const [people, setPeople ] = useState([]);
+  const [people, setPeople] = useState([]);
 
   return (
     <div>
@@ -25,7 +25,7 @@ function App() {
 
   function getPeople() {
     fetchPeople()
-    .then(people => setPeople(people) );
+      .then(people => setPeople(people));
   }
 }
 
