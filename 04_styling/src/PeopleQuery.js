@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const PeopleQuery = ({ getPeople }) => {
   return (
     <>
@@ -24,7 +22,7 @@ export const PeopleQuery = ({ getPeople }) => {
       <div>
         <button onClick={getPeople} className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
           Get People
-    </button>
+        </button>
       </div>
     </>
   )

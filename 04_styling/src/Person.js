@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const Person = ({ person }) => {
   return (
     <div className="mdl-card mdl-shadow--8dp" style={styles.wrapper}>
@@ -25,7 +23,7 @@ export const Person = ({ person }) => {
               <td>
                 {person.location.street.number} {person.location.street.name}<br />
                 {person.location?.city},
-            {person.location?.state}
+                {person.location?.state}
                 {person.location?.postcode}
               </td>
             </tr>
