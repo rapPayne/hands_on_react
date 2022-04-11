@@ -1,11 +1,10 @@
-import React from 'react';
 import { Person } from './Person';
 
 export const PeopleList = ({ people }) => {
   return (
     <>
       <section style={styles.wrapper}>
-      {people.map(person => <Person person={person} key={person.login?.uuid} />)}
+        {people.map(person => <Person person={person} key={person.login?.uuid} />)}
       </section>
     </>
   )
