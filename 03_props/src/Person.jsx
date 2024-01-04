@@ -1,0 +1,33 @@
+export const Person = ({ person }) => {
+  return (
+    <section className="Person">
+      <div className="imageAndName">
+        <img src={person?.picture.large} alt={person?.name.first} />
+        <p>{person?.name.first} {person?.name.last}</p>
+      </div>
+      <div className="details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Cell</td>
+              <td>{person?.cell}</td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td>{person?.email}</td>
+            </tr>
+            <tr>
+              <td>Address</td>
+              <td>
+                {person?.location.street.number} {person?.location.street.name}<br />
+                {person?.location?.city},
+                {person?.location?.state}
+                {person?.location?.postcode}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  );
+}
