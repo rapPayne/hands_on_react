@@ -9,7 +9,7 @@ function App() {
         <People />
       </main>
       <footer>
-        Copyright &copy; Us.com {(new Date()).getFullYear()}
+        Copyright &copy; Us.com 2029
       </footer>
     </>
   )
