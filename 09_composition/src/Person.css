@@ -1,0 +1,26 @@
+.Person {
+  background-color: bisque;
+  margin: 10px;
+
+  &>h2 {
+    text-align: center;
+  }
+
+  &>img {
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  &>p {
+    padding: 0 10px;
+    margin: 0;
+    overflow: hidden;
+
+    &>span:first-child {
+      font-weight: bold;
+      padding-right: 5px;
+    }
+
+    &>span {}
+  }
+}
